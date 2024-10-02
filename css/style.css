@@ -40,7 +40,7 @@ html {
 }
 
 .new a:hover {
-  scale: 1.1 !important;
+  scale: 1.1!important
 }
 
 .img {
@@ -236,6 +236,12 @@ textarea {
     width: 100%;
   }
 
+  .new{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .abilities {
     flex-direction: column;
     row-gap: 10px;
@@ -305,6 +311,10 @@ textarea {
 
   .last-item {
     padding-bottom: 30px;
+  }
+
+  .text{
+    text-align: center;
   }
 
   .call {
